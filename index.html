@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="//db.onlinewebfonts.com/c/7d460b18433753a097e5bc2bad7c8dd9?family=Norse" rel="stylesheet" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <!-- <img class="splash" src="images/splash.jpg" alt="Splash Image"> -->
+            <div class="overlay">
+                <img class="logo" src="images/odin.png" alt="logo"> <p>Odin</p>
+               
+            </div>
+            <p class="caption">Photo by <a href="https://unsplash.com/@remyloz">Remy Loz</a> on <a href="https://unsplash.com/">Unsplash</a> </p>
+        </div>
+        <div class="right">
+            <div class="top">
+                <p class="blurb">This is not a real online service! You know you need something</p>
+                <p> like this in your life to help you realise your deepest dreams.</p> 
+                <p> Sign up <em>now</em> to get started.</p>
+                <p> You <em>know</em> you want to</p>
+            </div>
+            <div class="middle form">
+            <form class="form">
+                <legend>Let's do this!</legend>
+                <ul>
+                    <li><label for="first_name">
+                            <span>First Name</span>
+                        </label>
+                        <input type="text" name="first_name" id="first_name" required>
+                    </li>
+                    <li><label for="last_name">
+                        <span>Last Name</span>
+                    </label>
+                    <input type="text" name="last_name" id="last_name" required>
+                    </li>
+                    <li><label for="email">
+                        <span>E-Mail</span>
+                        </label>
+                        <input type="email" name="email" id="email" required>
+                    </li>
+                    <li><label for="tel">
+                            <span>Phone Number</span>
+                        </label>
+                        <input type="tel" name="tel" id="tel" required>
+                    </li>
+                    <li><label for="password">
+                        <span>Password</span>
+                    </label>
+                    <input type="password" name="password" id="password" pattern=".{8,}" required  />
+                    <p class="hidden">Passwords do not match!</p>
+                    </li>
+                    <li><label for="confirmpw">
+                        <span>Confirm Password</span>
+                    </label>
+                    <input type="password" name="confirmpw" id="confirmpw" required>
+                </ul>
+                <div class="bottom">
+                    <button type="submit" class="button">Create Account</button>
+                    <p class="bottomText">Already have an account? <span class="login">Log In</span></p>
+            </form>
+        </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
